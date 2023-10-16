@@ -1,9 +1,9 @@
 name: AWS ECS Deployment with CDK
 
-on:
-  repository_dispatch:
-    types:
-      - deploy-to-ecs-with-cdk
+# on:
+#  repository_dispatch:
+#    types:
+#      - deploy-to-ecs-with-cdk
 
 jobs:
   deploy:
